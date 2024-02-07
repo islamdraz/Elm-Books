@@ -1,0 +1,6 @@
+@host = http://localhost:5014
+ 
+GET {{host}}/books?query=Khts&offset=0&pageSize=20
+Content-Type: application/json
+
+
